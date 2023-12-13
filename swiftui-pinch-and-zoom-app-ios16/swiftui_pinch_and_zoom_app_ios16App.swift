@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct swiftui_pinch_and_zoom_app_ios16App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
