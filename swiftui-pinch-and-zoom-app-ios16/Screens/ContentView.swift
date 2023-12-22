@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   
-  //MARK: - PROPERTY
+  //MARK: - PROPERTIES
   
   @State private var isAnimating: Bool = false
   @State private var imageScale: CGFloat = 1
@@ -23,7 +23,7 @@ struct ContentView: View {
   let pages: [Page] = pagesData
   @State private var pageIndex: Int = 1
   
-  //MARK: - FUNCTION
+  //MARK: - FUNCTIONS
   
   func resetImageState() {
     return withAnimation(.spring()) {
